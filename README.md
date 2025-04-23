@@ -49,7 +49,7 @@ _Why not already send the access token in step 6?_
 
 Authorization servers (Google in this example) use predefined URIs. So LinkedIn needs to specify predefined URIs when setting up their Google API. And if the given redirect_uri is not among the predefined ones, then Google rejects the request. See here: https://datatracker.ietf.org/doc/html/rfc6749#section-3.1.2.2
 
-Additionally, LinkedIn includes the client_secret in the server-to-server request. This, however, is mainly intended to protect against the case that somehow intercepted the one time code, so he can't use it
+Additionally, LinkedIn includes the client_secret in the server-to-server request. This, however, is mainly intended to protect against the case that somehow intercepted the one time code, so he can't use it.
 
 ## Security Note: Encryption
 
