@@ -6,7 +6,7 @@ Let’s say LinkedIn wants to let users import their Google contacts.
 
 One obvious (but terrible) option would be to just ask users to enter their Gmail email and password directly into LinkedIn. But giving away your actual login credentials to another app is a huge security risk.
 
-OAuth was designed to solve exactly this kind of problem.
+OAuth (Open Authorization) was designed to solve exactly this kind of problem.
 
 Note: So OAuth solves an authorization problem! Not an authentication problem. See [here][ref1] for the difference.
 
