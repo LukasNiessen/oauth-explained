@@ -59,6 +59,10 @@ The state parameter is critical to prevent cross-site request forgery (CSRF) att
 
 OAuth 1.0 required clients to cryptographically sign every request, which was more secure but also much more complicated. OAuth 2.0 made things simpler by relying on HTTPS to protect data in transit, and using bearer tokens instead of signed requests.
 
+## OIDC
+
+If you want to use OAuth for authentication, you should use OIDC. It's a protocol that builds on top of OAuth 2.0. I wrote a very similar guide about it here: https://github.com/LukasNiessen/oidc-explained
+
 ## Code Example: OAuth 2.0 Login Implementation
 
 Below is a standalone Node.js example using Express to handle OAuth 2.0 login with Google, storing user data in a SQLite database.
